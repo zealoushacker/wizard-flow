@@ -14,7 +14,4 @@ Gem::Specification.new do |s|
 
   s.files = Dir["{app,lib,config}/**/*"] + ["MIT-LICENSE", "Rakefile", "Gemfile", "README.rdoc"]
   s.require_path   = 'lib'
-
-  s.add_dependency "activesupport" , "3.0.5"
-  s.add_dependency "rails"         , "3.0.5"
 end
